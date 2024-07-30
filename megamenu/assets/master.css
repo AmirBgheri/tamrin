@@ -1,0 +1,129 @@
+.megamenu{
+
+    margin: 100px auto;
+    width: 100%;
+    height: 60px;
+    
+    .row{
+        width: 80%;
+        
+        height: 100%;
+       
+        
+        >ul{
+            width: 100%;
+            height: 100%;
+            /* left: 10%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: coral;
+            /* padding: 0 5px; */
+            >li{
+                width: 100%;
+                height: 100%;
+                /* right: 15%; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid black;
+              
+             
+                
+                &:nth-of-type(2){
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .4s;
+                    &:hover{
+                        >.sub{
+                            visibility: visible;
+                        }
+                    }
+                    
+                    }
+                    >.sub{
+                        width: 125%;
+                        height: 400px;
+                        visibility: hidden;
+                        transition: .4s;
+                        display: flex;
+                        background-color: rgba(0, 0, 0, 0.397);
+                        position: absolute;
+                        
+                        top: 60px;
+                        >figure{
+                            width: 20%;
+                            height: 300px;
+                           
+                          
+                           >img{
+                            margin-top: 20px;
+                            margin-left: 300px;
+                           
+
+                           }
+                        }
+                        >.txt{
+                            margin-left: 620px;
+                            margin-top: 20px;
+                            /* background-color: rgb(255, 13, 0); */
+                            position: absolute;
+                            width: 25%;
+                            height: 100%;
+                           
+                            >h2{
+                               margin-bottom: 15px;
+                            }
+                            >p{
+                                margin: 10px 0;
+                            }
+                        }
+                        .txt2{
+                            margin-left: 820px;
+                            margin-top: 20px;
+                            /* background-color: rgb(255, 13, 0); */
+                            position: absolute;
+                            width: 25%;
+                            height: 100%;
+                           
+                            >h2{
+                               margin-bottom: 15px;
+                            }
+                            >p{
+                                margin: 10px 0;
+                            }
+                        }
+                        >.txt3{
+                            margin-left: 1020px;
+                            margin-top: 20px;
+                            /* background-color: rgb(255, 13, 0); */
+                            position: absolute;
+                            width: 25%;
+                            height: 100%;
+                           
+                            >h2{
+                               margin-bottom: 15px;
+                            }
+                            >p{
+                                margin: 10px 0;
+                            }
+                        }
+                    }
+                
+                >a{
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    color: white;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                   
+                }
+            }
+        }
+    }
+}
